@@ -5,6 +5,8 @@ defineProps<{
   description: string
   price: string
   features: string[]
+  image: string
+  imagePosition?: string
 }>()
 </script>
 <template>
@@ -13,6 +15,12 @@ defineProps<{
   >
     <!-- nama paket dan kecepatan -->
     <header class="mb-3">
+      <!-- membedakan posisi gambar pertama saja -->
+      <img
+        :src="image"
+        :alt="name"
+        :class="['w-full h-40 object-cover rounded-xl mb-4', imagePosition || 'object-[50%_40%]']"
+      />
       <h3 class="text-lg font-medium text-slate-900">{{ name }}</h3>
       <p class="text-4xl font-bold text-slate-900 mt-2">{{ speed }}</p>
       <p class="text-sm text-slate-500 mt-2">{{ description }}</p>

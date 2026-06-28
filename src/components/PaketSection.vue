@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 import PricingCard from './PricingCard.vue'
 
 const daftarPaket = [
@@ -9,6 +8,8 @@ const daftarPaket = [
     description: 'Cocok Untuk Kebutuhan Dasar',
     price: 'Rp250.000',
     features: ['Unlimited Kuota', 'Wifi Router', 'Support 24/7', 'Internet Cepat'],
+    image: '/img/paket-internet-1.jpeg',
+    imagePosition: 'object-top',
   },
   {
     name: 'Family',
@@ -23,6 +24,7 @@ const daftarPaket = [
       'Phone support',
       'Community access',
     ],
+    image: '/img/paket-internet-2.jpeg',
   },
   {
     name: 'Bisnis',
@@ -36,6 +38,7 @@ const daftarPaket = [
       'Support Prioritas 24/7',
       'Instalasi Cepat',
     ],
+    image: '/img/paket-internet-3.jpeg',
   },
 ]
 </script>
@@ -59,6 +62,8 @@ const daftarPaket = [
             :description="paket.description"
             :price="paket.price"
             :features="paket.features"
+            :image="paket.image"
+            :imagePosition="paket.imagePosition"
           />
         </div>
       </div>

@@ -110,7 +110,49 @@ const isMobileMenuOpen = ref(false)
         href="#tentang"
         class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
       >
-        Tentang Program
+        Paket Internet
+      </a>
+      <a
+        @click="isMobileMenuOpen = false"
+        href="#tentang"
+        class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+      >
+        Paket Combo
+      </a>
+      <a
+        @click="isMobileMenuOpen = false"
+        href="#tentang"
+        class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+      >
+        Paket Gamer
+      </a>
+      <a
+        @click="isMobileMenuOpen = false"
+        href="#tentang"
+        class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+      >
+        Promo
+      </a>
+      <a
+        @click="isMobileMenuOpen = false"
+        href="#tentang"
+        class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+      >
+        Cara Daftar
+      </a>
+      <a
+        @click="isMobileMenuOpen = false"
+        href="#tentang"
+        class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+      >
+        FAQ
+      </a>
+      <a
+        @click="isMobileMenuOpen = false"
+        href="#tentang"
+        class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+      >
+        Kontak
       </a>
     </div>
   </header>
