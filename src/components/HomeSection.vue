@@ -9,7 +9,7 @@ import Vector from '../assets/vector.svg'
         <div class="w-full self-center px-4 lg:w-1/2 order-2 lg:order-1">
           <h1 class="text-slate-800 font-extrabold text-4xl md:text-5xl lg:text-6xl mb-4">
             Internet Cepat Hidup makin <span
-              class="bg-clip-text text-transparent bg-linear-to-r from-violet-600 to-fuchsia-600"
+              class="bg-clip-text text-transparent bg-linear-to-r from-violet-500 to-purple-700"
               >Nyaman</span
             >
           </h1>
@@ -20,7 +20,7 @@ import Vector from '../assets/vector.svg'
           <div class="flex flex-wrap gap-3 items-center justify-center md:justify-start">
             <a
               href="#"
-              class="py-3 px-5 rounded-xl bg-green-600 text-slate-100 font-medium flex items-center gap-2 shadow-lg shadow-green-600/20 hover:shadow-green-600/50 transition duration-300"
+              class="py-3 px-4 md:px-5 rounded-xl bg-green-600 text-slate-100 font-medium flex items-center gap-2 shadow-lg shadow-green-600/20 hover:shadow-green-600/50 transition duration-300"
             >
               <svg
                 role="img"
@@ -36,7 +36,7 @@ import Vector from '../assets/vector.svg'
             >
             <a
               href="#"
-              class="py-3 px-5 rounded-xl border border-violet-600 text-violet-600 font-medium flex items-center gap-2 shadow-lg shadow-violet-600/20 hover:shadow-violet-600/50 transition duration-300"
+              class="py-3 px-4 md:px-5 rounded-xl border border-violet-600 text-violet-600 font-medium flex items-center gap-2 shadow-lg shadow-violet-600/20 hover:shadow-violet-600/50 transition duration-300"
               >Lihat Paket
               <svg
                 xmlns="http://www.w3.org/2000/svg"
