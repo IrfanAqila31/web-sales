@@ -7,7 +7,7 @@
         class="bg-linear-to-bl from-violet-500 to-purple-500 rounded-2xl p-6 md:p-8 flex flex-col lg:flex-row items-center justify-between gap-8 shadow-xl"
       >
         <div
-          class="flex flex-col md:flex-row items-center gap-10 text-center md:text-left w-full lg:w-auto"
+          class="flex flex-col md:flex-row items-center gap-7 text-center md:text-left w-full lg:w-auto"
         >
           <div class="shrink-0">
             <svg
@@ -30,7 +30,7 @@
           </div>
 
           <div>
-            <h2 class="text-2xl md:text-3xl font-bold text-white mb-2">
+            <h2 class="text-xl md:text-3xl font-bold text-white mb-2">
               Siap Pasang WiFi Hari Ini?
             </h2>
             <p class="text-blue-100 text-sm md:text-base max-w-lg">
