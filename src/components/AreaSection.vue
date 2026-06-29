@@ -39,12 +39,14 @@ const daftarProses = [
 </script>
 
 <template>
-  <section class="pt-26 pb-26">
+  <section id="area-layanan" class="pt-26 pb-26">
     <div class="w-full max-w-7xl mx-auto">
       <div class="w-full px-4">
         <div class="max-w-xl mx-auto text-center mb-5">
           <h2 class="font-bold text-3xl mb-2">Area Layanan Kami</h2>
-          <h3 class="font-bold text-xl md:text-2xl mb-2 text-violet-800">Kami Tersedia di Banyak Wilayah</h3>
+          <h3 class="font-bold text-xl md:text-2xl mb-2 text-violet-800">
+            Kami Tersedia di Banyak Wilayah
+          </h3>
           <p class="text-slate-600 font-medium text-sm md:text-base">
             Layanan internet kami sudah tersedia di berbagai area. Jika lokasi Anda belum ada
             dilist, hubungi untuk informasi lebih lanjut
@@ -68,7 +70,7 @@ const daftarProses = [
               <h3>Daftar Koya Wilayah</h3>
             </header>
             <ul
-              class="grid grid-flow-col grid-rows-7 gap-x-6 gap-y-4 mb-8 flex-1 overflow-x-auto pb-2"
+              class="grid grid-flow-col grid-rows-7 gap-x-5 gap-y-4 mb-8 flex-1 overflow-x-auto pb-2"
             >
               <li v-for="wilayah in daftarWilayah" :key="wilayah" class="flex items-center gap-3">
                 <svg
@@ -80,7 +82,7 @@ const daftarProses = [
                 >
                   <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                 </svg>
-                <span class="text-slate-700 font-medium">{{ wilayah }}</span>
+                <span class="text-slate-700 font-medium text-sm">{{ wilayah }}</span>
               </li>
             </ul>
             <footer>

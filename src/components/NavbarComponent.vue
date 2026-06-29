@@ -15,19 +15,19 @@ const isMobileMenuOpen = ref(false)
       >
       <div class="hidden lg:flex items-center space-x-8">
         <a
-          href="#hero"
+          href="#home"
           class="text-sm font-bold text-slate-100 hover:text-violet-200 transition-colors"
           >Beranda</a
         >
         <a
-          href="#tentang"
+          href="#paket-internet"
           class="text-sm font-bold text-slate-100 hover:text-violet-200 transition-colors"
           >Paket Internet</a
         >
         <a
-          href="#tentang"
+          href="#area-layanan"
           class="text-sm font-bold text-slate-100 hover:text-violet-200 transition-colors"
-          >Paket Combo</a
+          >Area Layanan</a
         >
         <a
           href="#tentang"

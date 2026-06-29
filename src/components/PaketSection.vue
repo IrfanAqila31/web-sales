@@ -44,7 +44,7 @@ const daftarPaket = [
 </script>
 
 <template>
-  <section class="pt-26 pb-26">
+  <section id="paket-internet" class="pt-26 pb-26">
     <div class="w-full max-w-7xl mx-auto">
       <div class="w-full px-4">
         <div class="max-w-xl mx-auto text-center mb-5">

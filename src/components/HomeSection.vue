@@ -3,11 +3,11 @@ import Vector from '../assets/vector.svg'
 </script>
 
 <template>
-  <section class="pt-32 pb-24">
+  <section id="home" class="pt-32 pb-24">
     <div class="w-full max-w-7xl mx-auto">
       <div class="flex flex-wrap items-center">
         <div class="w-full self-center px-4 lg:w-1/2 order-2 lg:order-1">
-          <h1 class="text-slate-800 font-extrabold text-4xl md:text-5xl lg:text-6xl mb-4">
+          <h1 class="text-slate-800 font-extrabold text-4xl md:text-5xl lg:text-6xl mb-4 tracking-wide leading-[1]">
             Internet Cepat Hidup makin <span
               class="bg-clip-text text-transparent bg-linear-to-r from-violet-500 to-purple-700"
               >Nyaman</span
