@@ -7,33 +7,25 @@
         class="bg-linear-to-bl from-violet-500 to-purple-500 rounded-2xl p-6 md:p-8 flex flex-col lg:flex-row items-center justify-between gap-8 shadow-xl"
       >
         <div
-          class="flex flex-col md:flex-row items-center gap-6 text-center md:text-left w-full lg:w-auto"
+          class="flex flex-col md:flex-row items-center gap-10 text-center md:text-left w-full lg:w-auto"
         >
-          
           <div class="shrink-0">
             <svg
-              class="w-20 h-20 text-white drop-shadow-md"
-              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
+              fill="none"
               stroke="currentColor"
-              stroke-width="1.2"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-20 h-20 text-white drop-shadow-md"
             >
-              <!-- Antena -->
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M8.25 4.5l.5 6m6.5-6l-.5 6M12 3v7.5"
-              />
-              <!-- Badan Router -->
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 15.75c0-.828-.672-1.5-1.5-1.5H4.5c-.828 0-1.5.672-1.5 1.5v3c0 .828.672 1.5 1.5 1.5h15c.828 0 1.5-.672 1.5-1.5v-3z"
-              />
-              <!-- Lampu -->
-              <circle cx="8" cy="17.5" r="1" fill="currentColor" />
-              <circle cx="12" cy="17.5" r="1" fill="currentColor" />
-              <circle cx="16" cy="17.5" r="1" fill="currentColor" />
+              <rect width="20" height="8" x="2" y="14" rx="2" />
+              <path d="M6.01 18H6" />
+              <path d="M10.01 18H10" />
+              <path d="M15 10v4" />
+              <path d="M17.84 7.17a4 4 0 0 0-5.66 0" />
+              <path d="M20.66 4.34a8 8 0 0 0-11.31 0" />
             </svg>
           </div>
 
@@ -48,9 +40,7 @@
           </div>
         </div>
 
-   
         <div class="flex flex-col sm:flex-row items-center gap-4 shrink-0 w-full lg:w-auto">
-          
           <a
             href="https://wa.me/6281234567890"
             target="_blank"

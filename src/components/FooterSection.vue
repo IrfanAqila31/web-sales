@@ -76,7 +76,7 @@
               <!-- Lokasi -->
               <li class="flex items-start gap-3">
                 <svg
-                  class="w-6 h-6 text-violet-500 shrink-0"
+                  class="w-6 h-6 text-slate-500 shrink-0"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -101,7 +101,7 @@
               <!-- Telepon (gunakan href="tel:...") -->
               <li class="flex items-center gap-3">
                 <svg
-                  class="w-6 h-6 text-violet-500 shrink-0"
+                  class="w-6 h-6 text-slate-500 shrink-0"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -122,7 +122,7 @@
               <!-- Email (gunakan href="mailto:...") -->
               <li class="flex items-center gap-3">
                 <svg
-                  class="w-6 h-6 text-violet-500 shrink-0"
+                  class="w-6 h-6 text-slate-500 shrink-0"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -135,7 +135,7 @@
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <a href="mailto:halo@superwifi.com" class="hover:text-white transition-colors"
+                <a href="mailto:halo@superwifi.com" class="hover:text-white transition duration-300"
                   >myrepublik@gmail.com</a
                 >
               </li>
@@ -146,7 +146,7 @@
       <div
         class="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500"
       >
-        <p>&copy; 2026 SuperWiFi. Hak Cipta Dilindungi.</p>
+        <p>&copy; 2026 My Republik Indonesia. Hak Cipta Dilindungi.</p>
         <nav aria-label="Legal" class="flex gap-4">
           <a href="#" class="hover:text-slate-300 transition-colors">Syarat & Ketentuan</a>
           <a href="#" class="hover:text-slate-300 transition-colors">Kebijakan Privasi</a>
