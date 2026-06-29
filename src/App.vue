@@ -6,6 +6,7 @@ import AreaSection from './components/AreaSection.vue'
 import PromoSection from './components/PromoSection.vue'
 import FaqSection from './components/FaqSection.vue'
 import KontakSection from './components/KontakSection.vue'
+import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
@@ -20,6 +21,9 @@ import KontakSection from './components/KontakSection.vue'
     <FaqSection />
     <KontakSection />
   </main>
+  <footer>
+    <FooterSection />
+  </footer>
 </template>
 
 <style scoped></style>
