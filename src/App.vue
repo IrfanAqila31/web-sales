@@ -2,6 +2,7 @@
 import NavbarComponent from './components/NavbarComponent.vue'
 import HomeSection from './components/HomeSection.vue'
 import PaketSection from './components/PaketSection.vue'
+import AreaSection from './components/AreaSection.vue'
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import PaketSection from './components/PaketSection.vue'
   <main>
     <HomeSection />
     <PaketSection />
+    <AreaSection />
   </main>
 </template>
 
