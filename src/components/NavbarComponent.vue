@@ -30,27 +30,18 @@ const isMobileMenuOpen = ref(false)
           >Area Layanan</a
         >
         <a
-          href="#tentang"
-          class="text-sm font-bold text-slate-100 hover:text-violet-200 transition-colors"
-          >Paket Gamer</a
-        >
-        <a
-          href="#tentang"
+          href="#promo"
           class="text-sm font-bold text-slate-100 hover:text-violet-200 transition-colors"
           >Promo</a
         >
         <a
-          href="#tentang"
-          class="text-sm font-bold text-slate-100 hover:text-violet-200 transition-colors"
-          >Cara Daftar</a
-        >
-        <a
-          href="#tentang"
+          href="#faq"
           class="text-sm font-bold text-slate-100 hover:text-violet-200 transition-colors"
           >FAQ</a
         >
+
         <a
-          href="#tentang"
+          href="#kontak"
           class="text-sm font-bold text-slate-100 hover:text-violet-200 transition-colors"
           >Kontak</a
         >
@@ -101,7 +92,7 @@ const isMobileMenuOpen = ref(false)
       <a
         @click="isMobileMenuOpen = false"
         href="#home"
-        class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg  transition-colors"
+        class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
       >
         Beranda
       </a>
@@ -121,35 +112,21 @@ const isMobileMenuOpen = ref(false)
       </a>
       <a
         @click="isMobileMenuOpen = false"
-        href="#tentang"
-        class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
-      >
-        Paket Gamer
-      </a>
-      <a
-        @click="isMobileMenuOpen = false"
-        href="#tentang"
+        href="#promo"
         class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
       >
         Promo
       </a>
       <a
         @click="isMobileMenuOpen = false"
-        href="#tentang"
-        class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
-      >
-        Cara Daftar
-      </a>
-      <a
-        @click="isMobileMenuOpen = false"
-        href="#tentang"
+        href="#faq"
         class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
       >
         FAQ
       </a>
       <a
         @click="isMobileMenuOpen = false"
-        href="#tentang"
+        href="#kontak"
         class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
       >
         Kontak

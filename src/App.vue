@@ -3,6 +3,9 @@ import NavbarComponent from './components/NavbarComponent.vue'
 import HomeSection from './components/HomeSection.vue'
 import PaketSection from './components/PaketSection.vue'
 import AreaSection from './components/AreaSection.vue'
+import PromoSection from './components/PromoSection.vue'
+import FaqSection from './components/FaqSection.vue'
+import KontakSection from './components/KontakSection.vue'
 </script>
 
 <template>
@@ -13,6 +16,9 @@ import AreaSection from './components/AreaSection.vue'
     <HomeSection />
     <PaketSection />
     <AreaSection />
+    <PromoSection />
+    <FaqSection />
+    <KontakSection />
   </main>
 </template>
 
