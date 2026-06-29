@@ -100,24 +100,24 @@ const isMobileMenuOpen = ref(false)
     >
       <a
         @click="isMobileMenuOpen = false"
-        href="#hero"
+        href="#home"
         class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg  transition-colors"
       >
         Beranda
       </a>
       <a
         @click="isMobileMenuOpen = false"
-        href="#tentang"
+        href="#paket-internet"
         class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
       >
         Paket Internet
       </a>
       <a
         @click="isMobileMenuOpen = false"
-        href="#tentang"
+        href="#area-layanan"
         class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
       >
-        Paket Combo
+        Area Layanan
       </a>
       <a
         @click="isMobileMenuOpen = false"
