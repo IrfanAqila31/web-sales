@@ -8,7 +8,7 @@ const isMobileMenuOpen = ref(false)
   <header class="fixed top-4 left-0 w-full z-50 flex justify-center px-4">
     <nav
       aria-label="Navigasi Utama"
-      class="bg-linear-to-bl from-violet-600/70 to-purple-600/70 backdrop-blur-sm border border-white/50 shadow-lg rounded-2xl w-full max-w-7xl px-6 py-3 md:py-5 flex items-center justify-between"
+      class="bg-linear-to-bl from-violet-600/70 to-purple-600/70 backdrop-blur-sm shadow-lg rounded-2xl w-full max-w-7xl px-6 py-3 md:py-5 flex items-center justify-between"
     >
       <a href="#" class="text-lg md:text-xl font-bold text-slate-900" aria-label="Logo Mahreen"
         >My Republik <span class="text-slate-50">Indonesia</span></a
@@ -89,7 +89,7 @@ const isMobileMenuOpen = ref(false)
     <transition name="slide-down">
       <div
         v-show="isMobileMenuOpen"
-        class="absolute top-15 left-4 right-4 bg-linear-to-bl from-violet-600/70 to-purple-600/70 backdrop-blur-md rounded-2xl shadow-xl border border-slate-100 p-5 lg:hidden flex flex-col space-y-2"
+        class="absolute top-15 left-4 right-4 bg-linear-to-bl from-violet-600/70 to-purple-600/70 backdrop-blur-md rounded-2xl shadow-xl p-5 lg:hidden flex flex-col space-y-2"
       >
         <a
           @click="isMobileMenuOpen = false"
