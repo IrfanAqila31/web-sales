@@ -94,7 +94,7 @@ const daftarProses = [
                 class="inline-flex justify-center items-center gap-2 w-full py-3 px-6 bg-linear-to-r from-violet-600 to-purple-600 text-white font-medium rounded-xl transition duration-300 shadow-sm hover:shadow-md"
               >
                 <svg
-                  role="img"
+                  aria-hidden="true"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                   class="w-5 h-5 fill-current"
