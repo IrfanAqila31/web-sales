@@ -7,9 +7,11 @@ import Vector from '../assets/vector.svg'
     <div class="w-full max-w-7xl mx-auto">
       <div class="flex flex-wrap items-center">
         <div class="w-full self-center px-4 lg:w-1/2 order-2 lg:order-1">
-          <h1 class="text-slate-800 font-extrabold text-4xl md:text-5xl lg:text-6xl mb-4 tracking-wide">
-            Internet Cepat Hidup makin <span
-              class="bg-clip-text text-transparent bg-linear-to-r from-violet-500 to-purple-700"
+          <h1
+            class="text-slate-800 font-extrabold text-4xl md:text-5xl lg:text-6xl mb-4 tracking-wide"
+          >
+            Internet Cepat Hidup makin
+            <span class="bg-clip-text text-transparent bg-linear-to-r from-violet-500 to-purple-700"
               >Nyaman</span
             >
           </h1>
@@ -55,7 +57,14 @@ import Vector from '../assets/vector.svg'
           </div>
         </div>
         <div class="w-full px-4 lg:w-1/2 flex justify-center order-1 lg:order-2 mb-10 lg:mb-0">
-          <img :src="Vector" alt="Vector" class="w-full max-w-lg h-auto drop-shadow-2xl" />
+          <img
+            :src="Vector"
+            alt="Vector"
+            width="500"
+            height="500"
+            fetchpriority="high"
+            class="w-full max-w-lg h-auto drop-shadow-2xl"
+          />
         </div>
       </div>
     </div>

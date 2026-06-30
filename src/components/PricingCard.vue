@@ -19,6 +19,9 @@ defineProps<{
       <img
         :src="image"
         :alt="name"
+        width="400"
+        height="160"
+        loading="lazy"
         :class="['w-full h-40 object-cover rounded-xl mb-4', imagePosition || 'object-[50%_40%]']"
       />
       <h3 class="text-lg font-medium text-slate-900">{{ name }}</h3>

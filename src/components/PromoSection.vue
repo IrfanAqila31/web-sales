@@ -8,6 +8,9 @@
         <img
           src="/img/poster-promo.webp"
           alt="Banner Promo Spesial"
+          width="1024"
+          height="384"
+          loading="lazy"
           class="w-full h-64 md:h-96 object-cover object-[50%_20%] group-hover:scale-105 transition-transform duration-700"
         />
       </div>

@@ -56,6 +56,9 @@ const daftarProses = [
           <img
             src="../assets/indonesia.svg"
             alt="Peta Area Layanan"
+            width="896"
+            height="400"
+            loading="lazy"
             class="w-full max-w-4xl drop-shadow-xl hover:scale-105 transition-transform duration-500"
           />
           <figcaption class="sr-only">
