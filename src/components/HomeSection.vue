@@ -23,7 +23,7 @@
               class="py-3 px-4 md:px-5 rounded-xl bg-green-600 text-slate-100 font-medium flex items-center gap-2 shadow-lg shadow-green-600/20 hover:shadow-green-600/50 transition duration-300"
             >
               <svg
-                role="img"
+                aria-hidden="true"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
                 class="w-5 h-5 fill-current"
