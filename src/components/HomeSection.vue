@@ -34,7 +34,7 @@ import Vector from '../assets/vector.svg'
               >Chat WhatsApp</a
             >
             <a
-              href="#"
+              href="#paket-internet"
               class="py-3 px-4 md:px-5 rounded-xl border border-violet-600 text-violet-600 font-medium flex items-center gap-2 shadow-lg shadow-violet-600/20 hover:shadow-violet-600/50 transition duration-300"
               >Lihat Paket
               <svg
