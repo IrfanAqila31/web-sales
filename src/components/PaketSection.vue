@@ -8,7 +8,7 @@ const daftarPaket = [
     description: 'Cocok Untuk Kebutuhan Dasar',
     price: 'Rp250.000',
     features: ['Unlimited Kuota', 'Wifi Router', 'Support 24/7', 'Internet Cepat'],
-    image: '/img/paket-internet-1.jpeg',
+    image: '/img/paket-internet-1.webp',
     imagePosition: 'object-top',
   },
   {
@@ -24,7 +24,7 @@ const daftarPaket = [
       'Phone support',
       'Community access',
     ],
-    image: '/img/paket-internet-2.jpeg',
+    image: '/img/paket-internet-2.webp',
   },
   {
     name: 'Bisnis',
@@ -38,7 +38,7 @@ const daftarPaket = [
       'Support Prioritas 24/7',
       'Instalasi Cepat',
     ],
-    image: '/img/paket-internet-3.jpeg',
+    image: '/img/paket-internet-3.webp',
   },
 ]
 </script>
