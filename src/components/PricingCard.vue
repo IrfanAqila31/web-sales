@@ -50,7 +50,9 @@ defineProps<{
     </ul>
     <footer>
       <a
-        href="#"
+        href="https://wa.me/6287744884140"
+        target="_blank"
+        rel="noopener noreferrer"
         class="flex justify-center items-center gap-3 w-full py-3 px-4 bg-linear-to-r from-violet-600 to-purple-600 shadow-sm hover:shadow-lg text-white text-center font-medium rounded-xl transition duration-300 hover:bg-linear-to-r hover:from-violet-500 hover:to-purple-500"
       >
         <svg

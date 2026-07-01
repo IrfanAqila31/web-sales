@@ -94,42 +94,42 @@ const isMobileMenuOpen = ref(false)
         <a
           @click="isMobileMenuOpen = false"
           href="#home"
-          class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+          class="text-base font-medium text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
         >
           Beranda
         </a>
         <a
           @click="isMobileMenuOpen = false"
           href="#paket-internet"
-          class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+          class="text-base font-medium text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
         >
           Paket Internet
         </a>
         <a
           @click="isMobileMenuOpen = false"
           href="#area-layanan"
-          class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+          class="text-base font-medium text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
         >
           Area Layanan
         </a>
         <a
           @click="isMobileMenuOpen = false"
           href="#promo"
-          class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+          class="text-base font-medium text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
         >
           Promo
         </a>
         <a
           @click="isMobileMenuOpen = false"
           href="#faq"
-          class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+          class="text-base font-medium text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
         >
           FAQ
         </a>
         <a
           @click="isMobileMenuOpen = false"
           href="#kontak"
-          class="text-base font-bold text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+          class="text-base font-medium text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
         >
           Kontak
         </a>

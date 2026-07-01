@@ -42,8 +42,9 @@
 
         <div class="flex flex-col sm:flex-row items-center gap-4 shrink-0 w-full lg:w-auto">
           <a
-            href="https://wa.me/6281234567890"
+            href="https://wa.me/6287744884140"
             target="_blank"
+            rel="noopener noreferrer"
             class="flex items-center font-medium justify-center gap-2 bg-green-600 hover:bg-green-500 text-white py-3 px-6 rounded-xl transition-colors duration-300 w-full sm:w-auto"
           >
             <svg
@@ -60,7 +61,7 @@
 
           <!-- Tombol Telepon Putih -->
           <a
-            href="tel:081234567890"
+            href="tel:087744884140"
             class="flex items-center font-medium justify-center gap-2 bg-white hover:bg-slate-50 text-violet-700 py-3 px-6 rounded-xl transition-colors duration-300 w-full sm:w-auto"
           >
             <svg

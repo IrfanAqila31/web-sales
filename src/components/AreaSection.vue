@@ -90,7 +90,9 @@ const daftarProses = [
             </ul>
             <footer>
               <a
-                href="#"
+                href="https://wa.me/6287744884140"
+                target="_blank"
+                rel="noopener noreferrer"
                 class="inline-flex justify-center items-center gap-2 w-full py-3 px-6 bg-linear-to-r from-violet-600 to-purple-600 text-white font-medium rounded-xl transition duration-300 shadow-sm hover:shadow-md"
               >
                 <svg
